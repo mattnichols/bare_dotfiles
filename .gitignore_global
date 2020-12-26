@@ -1,0 +1,8 @@
+.rake_tasks~
+bin/spring
+bin/rspec
+*.DS_Store
+Gemfile.local
+Gemfile.local.lock
+zeus.log
+Guardfile
