@@ -17,3 +17,4 @@ config config --local status.showUntrackedFiles no
 echo ".dotfiles" >> .gitignore
 ```
 
+Information about bare dotfile repos: https://www.atlassian.com/git/tutorials/dotfiles
