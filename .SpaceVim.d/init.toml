@@ -26,26 +26,27 @@
 
 # Enable autocomplete layer
 [[layers]]
-name = 'autocomplete'
-auto_completion_return_key_behavior = "complete"
-auto_completion_tab_key_behavior = "smart"
+    name = 'autocomplete'
+    auto_completion_return_key_behavior = "complete"
+    auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
-name = 'shell'
-default_position = 'top'
-default_height = 30
+    name = 'shell'
+    default_position = 'top'
+    default_height = 30
 
 [[layers]]
-name = "git"
+    name = "git"
 
 [[layers]]
-name = "lang#groovy"
+    name = "lang#groovy"
 
 [[layers]]
-name = "lang#java"
+    name = "lang#java"
 
 [[layers]]
-name= "lang#kotlin"
+    name= "lang#kotlin"
 
 [[layers]]
-name = "lang#ruby"
+    name = "lang#ruby"
+

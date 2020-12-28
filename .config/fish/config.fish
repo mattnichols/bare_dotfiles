@@ -117,6 +117,7 @@ alias ea="atom -n ~/.dotfiles ~/.zshrc"
 alias ls='exa -la'
 alias gradle='gw'
 alias rm='trash'
+alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 set PATH "$HOME/bin:/usr/local/bin:$PATH"
 
@@ -125,5 +126,6 @@ set PATH "$HOME/bin:/usr/local/bin:$PATH"
 # neofetch
 #colorscript -e tiefighter1row
 rvm default
+pyenv init - | source
 
 starship init fish | source
