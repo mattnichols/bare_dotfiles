@@ -118,6 +118,8 @@ alias ls='exa -la'
 alias gradle='gw'
 alias rm='trash'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias vi='nvim'
+alias vim='nvim'
 
 set PATH "$HOME/bin:/usr/local/bin:$PATH"
 
