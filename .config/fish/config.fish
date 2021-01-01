@@ -120,6 +120,7 @@ alias rm='trash'
 alias config='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 alias vi='nvim'
 alias vim='nvim'
+alias sshmux="bash ~/tools/sshmux "
 
 set PATH "$HOME/bin:/usr/local/bin:$PATH"
 
